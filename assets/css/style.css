@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-shadow {
+    background-image: url(/assets/image/png/bg-shadow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.relative {
+    position: relative;
+}
+
+.taddy {
+    position: absolute;
+    bottom: 0%;
+    width: 656px;
+    height: 623px;
+    top: 187px;
+    left: 77px;
+    z-index: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: -12px;
+    padding-right: -12px;
+}
+
+.para {
+    font-family: "Jost", serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27.36px;
+    text-align: left;
+    color: white;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.heading {
+    font-family: "Jost", serif;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 109.44px;
+    text-align: left;
+    color: white;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.para-1 {
+    font-family: "Jost", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22.8px;
+    text-align: left;
+    color: white;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.btn {
+    font-family: "Jost", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22.8px;
+    text-align: left;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    background: linear-gradient(135.55deg, #06AFF2 -2.07%, #056BF1 105.81%);
+    border-radius: 30.5px;
+    border: 0px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.btn:hover {
+    background: linear-gradient(135.55deg, #1e7ca1 -2.07%, #1b5197 105.81%);
+}
+
+.paper {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22.8px;
+    text-align: left;
+    color: white;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.gap-29{
+    gap: 29px;
+}
+
+.mt-44{
+    margin-top: 44px;
+}
+
+.mt-12{
+    margin-top: 12px;
+}
+
+.mt-133{
+    margin-top: 133px;
+}
+
+
+.layer {
+    position: absolute;
+    bottom: -8%;
+    z-index: 1;
+}
+
+.shadow {
+    background-image: url(/assets/image/png/Frame\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading-1 {
+    font-family: "Jost", serif;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 109.44px;
+    text-align: center;
+    color: white;
+}
+
+.number {
+    font-family: "Jost", serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.04px;
+    text-align: center;
+    color: white;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.time {
+    font-family: "Jost", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.24px;
+    text-align: center;
+    color: white;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.para-2 {
+    font-family: "Jost", serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27.36px;
+    text-align: center;
+    color: white;
+}
+
+.Trailor {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.mt-223 {
+    margin-top: 223px;
+}
+
+.mt-2 {
+    margin-top: 2px;
+}
+
+.mt-199 {
+    margin-top: 199px;
+}
+
+.mt-7 {
+    margin-top: 7px;
+}

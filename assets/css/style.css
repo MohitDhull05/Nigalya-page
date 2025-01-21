@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(root.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -141,7 +142,7 @@
     transform: rotate(-43deg);
 }
 
-.color-white{
+.color-white {
     color: white;
 }
 
@@ -174,9 +175,9 @@
     position: absolute;
     bottom: 0%;
     width: 656px;
-    height: 623px;
-    top: 150px;
-    left: 120px;
+    height: 534px;
+    top: 219px;
+    left: 79px;
     z-index: 1;
 }
 
@@ -218,7 +219,7 @@
 
 }
 
-.bg-transparent{
+.bg-transparent {
     background-color: transparent;
 }
 
@@ -235,6 +236,7 @@
 }
 
 .btn {
+    cursor: pointer;
     font-family: "Jost", serif;
     font-size: 20px;
     font-weight: 600;
@@ -255,6 +257,7 @@
 }
 
 .paper {
+    cursor: pointer;
     font-family: Jost;
     font-size: 20px;
     font-weight: 600;
@@ -266,8 +269,9 @@
 
 }
 
-.paper:hover{
-   color: #056BF1;
+.paper:hover {
+    background-color: black;
+    color: #056BF1;
 }
 
 .d-flex {
@@ -278,19 +282,19 @@
     align-items: center;
 }
 
-.gap-29{
+.gap-29 {
     gap: 29px;
 }
 
-.mt-44{
+.mt-44 {
     margin-top: 44px;
 }
 
-.mt-12{
+.mt-12 {
     margin-top: 12px;
 }
 
-.mt-133{
+.mt-133 {
     margin-top: 133px;
 }
 
@@ -303,10 +307,19 @@
 }
 
 .shadow {
+    cursor: pointer;
     background-image: url(/assets/image/png/Frame\ 6.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.shadow:hover {
+    background-image: url(/assets/image/png/frame6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 .heading-1 {
     font-family: "Jost", serif;
@@ -374,6 +387,10 @@
     margin-top: 7px;
 }
 
+.mb-74 {
+    margin-bottom: 74px;
+}
+
 
 @media (max-width:991.98px) {
     .nav-link {
@@ -399,6 +416,10 @@
         display: none;
     }
 
+    .overflow-hidden{
+        overflow: hidden;
+    }
+
     .show-navbar {
         right: 0;
     }
@@ -409,4 +430,3 @@
         padding-right: 12px;
     }
 }
-

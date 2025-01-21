@@ -416,10 +416,6 @@
         display: none;
     }
 
-    .overflow-hidden{
-        overflow: hidden;
-    }
-
     .show-navbar {
         right: 0;
     }

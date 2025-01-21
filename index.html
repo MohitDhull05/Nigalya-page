@@ -6,35 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/image/svg/header-logo.svg" type="image/x-icon">
+
 </head>
 
 <body>
-    <section class="bg-shadow relative">
-        <nav></nav>
+    <header class="bg-shadow d-f lex align-item justify-content justify-item min-h-100">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <img class="taddy" src="assets/image/png/image 9.png" alt="">
-                </div>
-                <div class="col-6">
-                    <p class="para mt-133">Welcome to Nigalya</p>
-                    <h1 class="heading mt-2">Land of eternal NFT challengers</h1>
-                    <p class="para-1 mt-12">The first-choose-to earn on the blockchain
-                    </p>
-                    <div class="d-flex align-item gap-29 mt-44">
-                        <button class="btn">JOIN NOW</button>
-                        <p class="paper">Whitepaper</p>
+            <nav class="py-2 d-flex align-item nav-bar w-100">
+                <div class="d-flex align-item justify-content-between w-100">
+                    <a href="#"><img src="./assets/image/png/image 4.png" alt="header-logo"></a>
+                    <ul id="name"
+                        class="d-flex mb-0 mx-auto align-item justify-content justify-content-between gap-39 nav-link">
+                        <li class="up"><a class="navbar font-family-primary text-small color-white" href="#">HOME</a>
+                        </li>
+                        <li class="up"><a class="navbar font-family-primary text-small color-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="up"><a class="navbar font-family-primary text-small color-white" href="#">ROADMAP</a>
+                        </li>
+                        <li class="up"><a class="navbar font-family-primary text-small color-white" href="#">TEAM</a>
+                        </li>
+                        <li class="up"><a class="navbar font-family-primary text-small color-white" href="#">FAQ</a>
+                        </li>
+                        <li class="d-lg-none">
+                            <ul class="list-unstyled d-flex gap-14 mb-0">
+                                <li>
+                                    <div class="circle d-flex justify-content align-item">
+                                        <a href="https://www.twitter.com/">
+                                            <img src="./assets/image/svg/twiter.svg" alt="twiter-svg">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="circle d-flex justify-content align-item">
+                                        <a href="https://www.telegram.com/">
+                                            <img src="./assets/image/svg/Vector.svg" alt="vector-svg">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="circle d-flex justify-content align-item">
+                                        <a href="https://www.instagram.com/">
+                                            <img src="./assets/image/svg/insta.svg" alt="insta-svg">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="circle d-flex justify-content align-item">
+                                        <a href="https://www.discord.com/">
+                                            <img src="./assets/image/svg/discode.svg" alt="discord-svg">
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-end">
+                        <div onclick="navbarbtn()" class="d-block  cursor">
+                            <span class="menu-lines" id="rotates"></span>
+                            <span class="menu-lines" id="transparent"></span>
+                            <span class="menu-lines" id="rotates2"></span>
+                        </div>
                     </div>
                 </div>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="taddy" src="assets/image/png/image 9.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <p class="para mt-133">Welcome to Nigalya</p>
+                        <h1 class="heading mt-2">Land of eternal NFT challengers</h1>
+                        <p class="para-1 mt-12">The first-choose-to earn on the blockchain
+                        </p>
+                        <div class="d-flex align-item gap-29 mt-44">
+                            <button class="btn">JOIN NOW</button>
+                            <p class="paper">Whitepaper</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
+            <img class="layer" src="assets/image/png/Rectangle 2.png" alt="">
 
 
-
-        </div>
-        <img class="layer" src="assets/image/png/Rectangle 2.png" alt="">
-
-
-    </section>
+    </header>
 
     <section class="shadow Trailor">
         <div class="container">
@@ -48,7 +107,7 @@
         </div>
 
     </section>
-
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>

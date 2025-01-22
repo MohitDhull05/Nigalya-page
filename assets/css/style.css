@@ -9,6 +9,16 @@
     box-sizing: border-box;
 }
 
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #0D0D0D;
+}
+
 .d-flex {
     display: flex;
 }
@@ -50,8 +60,8 @@
     margin-top: 199px;
 }
 
-.mt-133 {
-    margin-top: 133px;
+.mt-163 {
+    margin-top: 163px;
 }
 
 .mt-107 {
@@ -179,9 +189,9 @@
     position: absolute;
     bottom: 0%;
     width: 656px;
-    height: 534px;
-    top: 219px;
-    left: 79px;
+    height: 500px;
+    top: 273px;
+    left: 110px;
     z-index: 1;
 }
 
@@ -206,9 +216,6 @@
     line-height: 27.36px;
     text-align: left;
     color: white;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .heading {
@@ -218,8 +225,6 @@
     line-height: 109.44px;
     text-align: left;
     color: white;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 
 }
 
@@ -234,9 +239,6 @@
     line-height: 22.8px;
     text-align: left;
     color: white;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .btn {
@@ -251,8 +253,6 @@
     background: linear-gradient(135.55deg, #06AFF2 -2.07%, #056BF1 105.81%);
     border-radius: 30.5px;
     border: 0px;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 
 }
 
@@ -268,9 +268,6 @@
     line-height: 22.8px;
     text-align: left;
     color: white;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .paper:hover {
@@ -345,9 +342,6 @@
     line-height: 41.04px;
     text-align: center;
     color: white;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .time {
@@ -357,9 +351,6 @@
     line-height: 18.24px;
     text-align: center;
     color: white;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .para-2 {
@@ -399,6 +390,39 @@
     margin-bottom: 74px;
 }
 
+.para {
+    font-family: "Jost", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.mt-36 {
+    margin-top: 36px;
+}
+
+.para {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35.4px;
+    text-align: center;
+   color: #FFFFFF;
+}
+
+.mt-54{
+    margin-top: 54px;
+}
+
+.gap-23{
+    gap: 23px;
+}
+
+.gap-16{
+    gap: 16px;
+}
 
 @media (max-width:991.98px) {
     .nav-link {

@@ -101,6 +101,10 @@
     gap: 39px;
 }
 
+.z-5 {
+    z-index: 5;
+}
+
 .navbar {
     font-weight: 400;
     line-height: 19.28px;
@@ -258,7 +262,7 @@
 
 .paper {
     cursor: pointer;
-    font-family: Jost;
+    font-family: "Jost", serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 22.8px;
@@ -270,9 +274,13 @@
 }
 
 .paper:hover {
-    background-color: black;
-    color: #056BF1;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    border-radius: 30.5px;
+    border: 0px;
+    background: linear-gradient(135.55deg, #1e7ca1 -2.07%, #1b5197 105.81%);
 }
+
 
 .d-flex {
     display: flex;

@@ -438,15 +438,15 @@ section {
     width: 100%;
 }
 
-/* .accordion-button:not(.collapsed)::after {
-    background-image: url(/image/Line-img.svg);
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/image/svg/Line-img.svg);
     background-size: contain;
     background-position: center;
     transform: rotate(0);
-} */
+}
 
 .accordion-button::after {
-    background-image: url(/image/arrow-img.svg);
+    background-image: url(/assets/image/svg/arrow-img.svg);
     background-size: contain;
     background-position: center;
 }

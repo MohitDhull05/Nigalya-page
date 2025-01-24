@@ -13,7 +13,6 @@ section {
     min-height: 100vh;
     display: flex;
     justify-items: center;
-    justify-content: center;
     align-items: center;
     align-content: center;
     background-color: #0D0D0D;
@@ -181,9 +180,9 @@ section {
     background-size: cover;
 }
 
-.taddy{
+.taddy {
     position: relative;
-    top: 75px;
+    top: 133px;
 }
 
 .relative {
@@ -200,8 +199,9 @@ section {
 }
 
 .heading {
+    max-width: 561px;
     font-family: "Jost", serif;
-    font-size: 94px; 
+    font-size: 96px;
     font-weight: 900;
     line-height: 109.44px;
     text-align: left;
@@ -377,7 +377,7 @@ section {
     color: #FFFFFF;
 }
 
-.mt-82{
+.mt-82 {
     margin-top: 82px !important;
 }
 
@@ -435,7 +435,7 @@ section {
     background-position: center;
 }
 
-.line{
+.line {
     border-bottom: 1px solid white !important;
 }
 
@@ -514,6 +514,7 @@ section {
 
     .show-navbar {
         right: 0 !important;
+        align-items: center;
     }
 
     .col-lg-6 {

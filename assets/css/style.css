@@ -182,7 +182,7 @@ section {
 
 .taddy {
     position: relative;
-    top: 133px;
+    top: 128px;
 }
 
 .relative {
@@ -433,10 +433,6 @@ section {
     background-image: url(/assets/image/svg/arrow-img.svg) !important;
     background-size: contain;
     background-position: center;
-}
-
-.line {
-    border-bottom: 1px solid white !important;
 }
 
 .accordion-item {

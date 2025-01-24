@@ -27,10 +27,6 @@ section {
     flex-grow: 1;
 }
 
-.align-item {
-    align-items: center;
-}
-
 .justify-content {
     justify-content: center;
 }
@@ -185,6 +181,11 @@ section {
     background-size: cover;
 }
 
+.taddy{
+    position: relative;
+    top: 75px;
+}
+
 .relative {
     position: relative;
 }
@@ -200,7 +201,7 @@ section {
 
 .heading {
     font-family: "Jost", serif;
-    font-size: 96px;
+    font-size: 94px; 
     font-weight: 900;
     line-height: 109.44px;
     text-align: left;
@@ -259,15 +260,6 @@ section {
     background: linear-gradient(135.55deg, #1e7ca1 -2.07%, #1b5197 105.81%);
 }
 
-
-.d-flex {
-    display: flex;
-}
-
-.align-item {
-    align-items: center;
-}
-
 .gap-29 {
     gap: 29px;
 }
@@ -287,7 +279,7 @@ section {
 
 .layer {
     position: absolute;
-    bottom: -3%;
+    bottom: 0%;
     left: 0%;
     width: 100%;
 }
@@ -443,6 +435,10 @@ section {
     background-position: center;
 }
 
+.line{
+    border-bottom: 1px solid white !important;
+}
+
 .accordion-item {
     border: none !important;
     border-bottom: 1px solid white !important;
@@ -527,8 +523,16 @@ section {
     }
 
     .heading {
-        font-size: 60px !important;
-        line-height: 100% !important;
+        font-size: 100px !important;
+        line-height: 100px !important;
         text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }
